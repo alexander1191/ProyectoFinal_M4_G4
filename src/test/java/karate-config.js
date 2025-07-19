@@ -12,8 +12,8 @@ function fn() {
 
     var config = {
        env: env,
-       baseUrl: 'https://6878376731d28a460e1d7d80.mockapi.io/api/v1/',
-       user: 'chambiFraya'
+       baseUrl: 'https://api.spotify.com/v1/',
+       user: 'juanPerez'
     }
 
     return config;
