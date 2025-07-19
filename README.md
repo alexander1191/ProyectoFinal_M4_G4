@@ -24,7 +24,15 @@ cd ProyectoFinal_M4_G4
 - Registra el siguiente Redirect URI:
 https://spotify.apitest:3000
 
-## 3. Ejecución de pruebas
+## 3. Configura tus credenciales
+Edita el archivo karate-config.js y reemplaza con tus credenciales:
+
+```bash
+config.clientId = 'TU_CLIENT_ID'
+config.clientSecret = 'TU_CLIENT_SECRET'
+config.redirectUri = 'https://spotify.apitest:3000'
+```
+## 4. Ejecución de pruebas
 
 ### Todas las pruebas
 
@@ -36,7 +44,7 @@ mvn test
 ```bash
 mvn test -Dkarate.options="classpath:apitests/<ruta_archivo>.feature"
 ```
-##  4. Estructura del proyecto
+##  5. Estructura del proyecto
 
 ```bash
 ProyectoFinal_M4_G4/
@@ -49,4 +57,3 @@ ProyectoFinal_M4_G4/
 ├── pom.xml
 └── README.md
 ```
-##  5. Integrantes

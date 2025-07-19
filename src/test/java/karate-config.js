@@ -13,7 +13,10 @@ function fn() {
     var config = {
        env: env,
        baseUrl: 'https://api.spotify.com/v1/',
-       user: 'juanPerez'
+       user: 'juanPerez',
+       clientId: 'da05b63f479343aea3bff67336a4dce4',
+       clientSecret: '78b6ba039eda41cba5e0d28c97509711',
+       redirectUri: 'https://spotify.apitest:3000'
     }
 
     return config;
